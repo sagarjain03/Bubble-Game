@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100vh;
+    width: 100vw;
+    background-color: #09c7fb;
+    background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    background-color: beige;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.navbar{
+    height: 13%;
+    width: 100%;
+    background-color: #f42b03;
+    background-image: linear-gradient(316deg, #f42b03 0%, #ffbe0b 74%);
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.dibba {
+    height: 30px;
+    width: 30px;
+    font-weight: 700;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p{
+    font-size: larger;
+    font-weight: 700;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h3{
+    font-size: larger;
+    color: white;
+}
+.content{
+    background-color: rgb(167, 232, 167);
+    width: 100%;
+    height: 87%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0beef9;
+    background-image: linear-gradient(315deg, #0beef9 0%, #48a9fe 74%);
+
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: #02eefa;
+    background-image: linear-gradient(315deg, #0beef9 0%, #1881dd 74%);
+
+}
